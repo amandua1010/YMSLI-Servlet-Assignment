@@ -3,7 +3,7 @@ function validate(){
     var isValid = true;
     var name = document.getElementById('myNameId').value;
     var password = document.getElementById('myPassId').value;
-    var contact = document.getElementById('phoneno').value;
+    var phoneno = document.getElementById('phoneno').value;
     var emailId = document.getElementById('emailId').value;
 
     if(isBlank(name)){
@@ -23,7 +23,7 @@ function validate(){
 
     }
 
-    if(isBlank(contact)){
+    if(isBlank(phoneno)){
 
         document.getElementById('phonenoMsg').innerHTML="enter phoneno";
         document.getElementById('phonenoMsg').style.color='red';
